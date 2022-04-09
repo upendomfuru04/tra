@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="some page description here" /><meta name="keywords" content="page keywords here" />
+	<title>upendomyfair</title>
+	
+</head>
+<style>
+	body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.loginform {
+    background: #ffffff;
+    width: 450px;
+    color: #4caf50;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 29px 0px #e0e0e0;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    top: -55px;
+    left: 0px;
+    right: 0px;
+    border: 2px solid #e6e6e6;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.row label {
+  font-size: 15px;
+  color: black;
+}
+
+.row input {
+  flex: 1;
+  padding: 13px;
+  border: 1px solid #d6d8e6;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.2s ease-out;
+}
+
+.row input:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 5px 0 rgba(42, 45, 48, 0.12);
+}
+
+
+button {
+  padding: 12px 22px;
+  width: 100%;
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  margin: 4px 2px;
+  transition: background 0.2s ease-out;
+}
+
+button:hover {
+  background: #55D3AC;
+}
+
+.copyright-area{
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+}
+@media(max-width: 576px) {
+.loginform {
+    width: 90%;
+}
+  form {
+    background: #f9faff;
+    border: none;
+    box-shadow: none;
+    padding: 20px 0;
+  }
+
+}
+</style>
+<body>
+   <div class="loginform">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    <form>
+     <div class="row">
+      <label for="TIN">TIN / National ID No:</label>
+      <br>
+        <input type="" name="number" autocomplete="off">
+     </div>
+     <div class="row">
+       <label for="password">Password:</label>
+       <br>
+         <input type="password" name="password">
+     </div>
+     
+     <div>
+        <div class="col-md-6">
+       <button style="background-color:Yellow;border-style:None; width: 100%" type="submit">Login</button>
+   </div>
+</div>
+<div >
+                            <div class="col-md-6">
+       <button style="background-color:Yellow;border-style:None;" type="submit">Forgot Password</button>
+   </div>
+<div class="col-md-6">
+       <button style="background-color:Yellow;border-style:None;" type="submit">Home</button>
+   </div>
+</div>
+<div>
+                            <div class="col-md-6">
+       <button style="color:White;background-color:Black;border-style:None; width: 100%" type="submit">Self Service </button>
+   </div>
+</div>
+    </form>
+   </div> 
+
+       <p style="text-align: center; padding-top: 85%;font-size: 18px;">Copyright © 2018-2022<a style="text-decoration: none;" href="#"> TRA</a>. All Rights Reserved</p>
+      
+</body>
+</html>
