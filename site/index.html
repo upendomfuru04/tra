@@ -21,13 +21,16 @@ header {
 }
 
 header h2{
-  font-size: 150%;
+  font-size: 13px;
   color: #3e403f;
+  margin-top: 10px;
 }
 
   header p{
   letter-spacing: 0.05em;
   color: #3e403f;
+  margin-top: -5px;
+  font-size: 9px;
 }
 .loginform {
     background: #ffffff;
@@ -117,7 +120,7 @@ button {
   form {
     border: none;
     box-shadow: none;
-    padding: 10px 0;
+    padding: 3px 0;
   }
 
 }
@@ -126,17 +129,97 @@ button {
    section{
     padding: 3rem 5%;
   }
+   .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    right: 0px;
+    border: 2px solid black;
+}
+.row label {
+  font-size: 12px;
+  color: black;
+}
+
+.row input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d6d8e6;
+  border-radius: 3px;
+  font-size: 13px;
+  transition: all 0.2s ease-out;
+}
+
+.row input:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 5px 0 rgba(42, 45, 48, 0.12);
+}
+
+button {
+  padding: 0 10px ;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  font-size: 10px;
+  color:;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 3% auto;
+  margin-top: -3px;
+}
+
+.submit {
+  width: 45%;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+}
 }
 
 
 @media screen and (max-width: 991px){
-  html{
-    font-size: 55%;
-  }
    section{
     padding: 5rem 2rem;
   }
 
+   .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    right: 0px;
+    border: 2px solid black;
+}
+
+.row label {
+  font-size: 10px;
+  color: black;
+}
+
+.row input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #d6d8e6;
+  border-radius: 3px;
+  font-size: 12px;
+  transition: all 0.2s ease-out;
+}
+
+.row input:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 5px 0 rgba(42, 45, 48, 0.12);
+}
 }
 @media screen and (max-width: 768px){
     
@@ -146,16 +229,30 @@ button {
 
 @media screen and (max-width: 568px){
   html{
-    font-size: 50%;
+    font-size: 20%;
   }
   
 
 }
 
 @media screen and (max-width: 400px){
-  .loginform{
-    width: 200px;
-  }
+  
+  .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    right: 0px;
+    border: 2px solid black;
+}
+
+p{
+  font-size: 1px;
+}
 
 }
 </style>
@@ -170,7 +267,7 @@ button {
         <div class="con">
           <header class="head-form">
             <h2>eFilling System</h2>
-            <p style="margin-top: -12px">Log in to start your session!</p>
+            <p style="">Log in to start your session!</p>
           </header>
         </div>
         <br>
@@ -200,13 +297,14 @@ button {
        
 </div>
     </form>
-    <p style="color: black; font-size: 15px">Don't have an eFilling account? <a href="#" style="color:black;text-decoration: none;"><b> Register here</b></a>.</p>
-<p style="color: black; font-size: 15px">If you have a TIN number  <a href="#" style="color:black; text-decoration: none;"><b> Click here</b></a>.</p>
+    <p style="color: black; font-size: 10px">Don't have an eFilling account? <a href="#" style="color:black;text-decoration: none;"><b> Register here</b></a>.</p>
+<p style="color: black; font-size: 10px">If you have a TIN number  <a href="#" style="color:black; text-decoration: none;"><b> Click here</b></a>.</p>
 
 
 
 <hr>
-<a style="font-size:13px; color: blue; text-decoration: none;" href="#"><i style="font-size:13px; color: blue" class="fa">&#xf019;</i><b> Download user manual</b></a>
+<br>
+<a style="font-size:10px; color: blue; text-decoration: none;" href="#"><i style="font-size:10px; color: blue" class="fa">&#xf019;</i><b> Download user manual</b></a>
  
    </div> 
  
